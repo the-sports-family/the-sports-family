@@ -124,8 +124,8 @@ h1, h2, h3, h4, h5, h6 {
 #endorsements-hero {
     display: table;
     width: 100%;
-    height: 400px;
-    background: url(../img/casey.jpg) bottom center fixed;
+    height: 500px;
+    background: url(../img/interception.jpg) top center fixed;
     background-size: 100%;
     background-repeat: no-repeat;
   }
@@ -159,7 +159,7 @@ h1, h2, h3, h4, h5, h6 {
     display: table;
     width: 100%;
     height: 200px;
-    background: url(../img/casey.jpg) top center fixed;
+    background: url(../img/interception.jpg) top center fixed;
     background-size: 100% auto;
     background-repeat: no-repeat;
   }
@@ -547,7 +547,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .section-title-divider {
   width: 50px;
   height: 3px;
-  background: #03C4EB;
+  background: rgb(165,165,165);
   margin: 0 auto;
   margin-bottom: 20px;
 }
@@ -613,14 +613,8 @@ section#training {
   margin-bottom: 0;
 }
 
-.hoops {
-  max-height: 160px;
-  margin: 0 25%;
-}
-
-.sweat {
-  max-height: 160px;
-  margin: 0 5%;
+.b-logos {
+  max-width: 80vw;
 }
 
 /* Services Section
@@ -628,7 +622,7 @@ section#training {
 #services {
   background: rgba(1,1,1,.9);
   background-size: cover;
-  padding: 80px 0 60px 0;
+  padding: 80px 0 0 0;
   color:white;
 }
 
@@ -849,7 +843,7 @@ section#training {
 --------------------------------*/
 #team {
   background: rgba(1,1,1,.9);
-  padding: 80px 0 60px 0;
+  padding: 80px 0 -40px 0;
 }
 
 .team-title {
@@ -1047,7 +1041,7 @@ form > input, textarea {
 }
 
 #football-training {
-  background-color: #111;
+  background-color: black;
   color: white;
 }
 
