@@ -116,8 +116,8 @@ h1, h2, h3, h4, h5, h6 {
   display: table;
   width: 100%;
   height: 400px;
-  background: url(../img/basketball-bg.jpg) top center fixed;
-  background-size: 100%;
+  background: rgba(0,108,182,1) url(../img/combine.jpg) top center fixed;
+  background-size: auto 400px;
   background-repeat: no-repeat;
 }
 
@@ -138,7 +138,20 @@ h1, h2, h3, h4, h5, h6 {
   background-color: rgba(255,255,255,.4);
 }
 
+.marketing-text {
+  font-size: 20px;
+  color: white;
+  line-height: 40px;
+}
+
+.marketing-pic{
+  max-width: 400px;
+}
+
 @media (max-width: 768px) {
+  .marketing-pic {
+   max-width: 90vw; 
+  }
   #footballhero {
     display: table;
     width: 100%;
@@ -150,9 +163,9 @@ h1, h2, h3, h4, h5, h6 {
   #basketballhero {
     display: table;
     width: 100%;
-    height: 400px;
-    background: url(../img/basketball-bg.jpg) top center fixed;
-    background-size: auto 100%;
+    height: 200px;
+    background: rgba(0,108,182,1) url(../img/combine.jpg) top center fixed;
+    background-size: 100vw auto;
     background-repeat: no-repeat;
   }
   #endorsements-hero {
@@ -632,17 +645,18 @@ section#training {
 
 #services .service-icon {
   float: left;
-  background: #03C4EB;
+  background: rgb(165,165,165);
   padding: 16px;
   border-radius: 50%;
   transition: 0.5s;
-  border: 1px solid #03C4EB;
+  border: 1px solid rgb(165,165,165);
 }
 
 #services .service-icon i {
   color: white;
-  font-size: 24px;
+  font-size: 20px;
 }
+
 
 /*#services .service-item:hover .service-icon {
   background: white;
@@ -1070,8 +1084,8 @@ form > input, textarea {
 }
 
 @media (max-width: 765px) {
-  iframe {
-    display: none;
+  .fb-logos {
+    max-width: 92vw;
   }
 }
 
