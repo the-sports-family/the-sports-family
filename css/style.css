@@ -101,6 +101,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 100vh;
   background: url(../img/cover2.jpg) bottom center fixed;
   background-size: cover;
+  filter: brightness(140%);
 }
 
 #footballhero {
