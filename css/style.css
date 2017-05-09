@@ -146,12 +146,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .marketing-pic{
-  max-width: 400px;
+  max-width: 500px;
+  padding-left: 120px;
 }
 
 @media (max-width: 768px) {
   .marketing-pic {
    max-width: 90vw;
+   padding-left: 0px;
   }
   #footballhero {
     display: table;
