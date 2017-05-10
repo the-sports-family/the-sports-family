@@ -26,6 +26,19 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+.training-facility {
+  max-height: 220px;
+  float: center;
+  padding-left: 120px;
+  padding-bottom: 20px;
+}
+.casey-training{
+  max-height: 220px;
+  float: left;
+  /*padding-right: 120px;*/
+  /*padding-bottom: 20px;*/
+}
+
 a {
   color: #03C4EB;
   transition: 0.5s;
@@ -78,6 +91,9 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 768px) {
   .back-to-top {
     bottom: 15px;
+  }
+  .training-facility {
+    display: none;
   }
 }
 
